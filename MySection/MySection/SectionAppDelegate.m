@@ -15,7 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.rootViewController = [[MyTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    self.window.rootViewController = [[MyTableViewController alloc] initWithStyle:
+                                      UITableViewStyleGrouped];
+//                                      UITableViewStylePlain];
+    
     //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
